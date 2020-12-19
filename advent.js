@@ -128,7 +128,7 @@ document.location.reload();
 const resetButton = document.createElement('button');
 resetButton.innerHTML = 'Reset Calendar';
 //addand event listener to call reset Calender
-resetButton.addEventListner('click',resetCalendar);
+resetButton.addEventListner('click', resetCalendar);
 //place the button on the page
 //grab the footer
 const footer = document.querySelector('footer');
