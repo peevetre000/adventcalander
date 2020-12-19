@@ -133,7 +133,7 @@ resetButton.addEventListner('click',resetCalendar);
 //grab the footer
 const footer = document.querySelector('footer');
 //add the button to the footer after the opening footer tag
-footer.insetAdjacentElement('afterbegin',resetButton);
+footer.insetAdjacentElement('afterbegin', resetButton);
 //afterbegin, beforebegin, beforeend, afterend
 
 
